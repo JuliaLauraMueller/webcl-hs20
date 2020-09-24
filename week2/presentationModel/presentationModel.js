@@ -22,7 +22,6 @@ const Attribute = value => {
     const setValidator = validator =>
         valueObs.onChange(val => validObs.setValue(validator(val)));
 
-
     return { valueObs, validObs, setConverter, setValidator, setConvertedValue }
 };
 
