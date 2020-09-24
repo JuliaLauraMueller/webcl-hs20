@@ -5,11 +5,11 @@ const Observable = value => {
     const listeners = [];
     return {
         onChange: callback => {
-            listeners.push(callback);
+            listeners.push(callback); // kommt ans Ende von allen
             callback(value, value);
         },
         getValue: ()       => value,
-        setValue: newValue => {
+        setValue: newValue => { // Geht es durch vom ersten zum letzten
             if (value === newValue) return;
             const oldValue = value;
             value = newValue;

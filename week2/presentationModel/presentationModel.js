@@ -6,11 +6,31 @@ export { Attribute }
 
 const Attribute = value => {
 
-    const valueObs = Observable(value);
+    const valueObs = Observable(value); // Kappselt den Value
     const validObs = Observable(true);
 
-    // todo: add required functions here
+    let   converter = id;
+    const setConverter = newConverter => {
+        converter = newConverter;
+        valueObs.setValue(converter(valueObs.getValue()));
+    }
+
+    const setConvertedValue = newValue =>
+        valueObs.setValue(converter(newValue));
 
 
-    return { valueObs, validObs }
+    const setValidator = validator =>
+        valueObs.onChange(val => validObs.setValue(validator(val)));
+
+
+    return { valueObs, validObs, setConverter, setValidator, setConvertedValue }
 };
+
+// Methode als normale Funktion
+
+function setConvertedValue2(newValue){
+    valueObs.setValue(converter(newValue));
+}
+
+
+

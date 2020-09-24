@@ -17,3 +17,15 @@ TodoOpenView (todoController, document.getElementById('openTasks'));
 // init the model
 
 todoController.addTodo();
+
+function test(number){
+    return number * number;
+}
+
+console.log(test(4));
+
+const testWithArrow = num => {
+    return num + num;
+}
+
+console.log(testWithArrow(2));
