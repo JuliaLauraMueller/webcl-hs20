@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385ab9bc-5f01-4a19-9790-f542823bb9e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week4/allTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/allTestsAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/allTestsSuite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/allTestsSuiteBundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/asyncStarter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/build-info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/church/church.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/church/churchTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/church/rock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/church/rockTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/church/ski.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/dataflow/dataflow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/dataflow/dataflowTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/observable/observable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/observable/observableTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/person.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/person/View.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/person/person.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/person/personProjector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/person/personStarter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/person/personTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/presentationModel/presentationModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/presentationModel/presentationModelTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo/View.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo/fortuneService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo/todoProjector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo/todoStarter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/todo/todoTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/util/strings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/util/stringsTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/util/times.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/util/timesTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/CSSTriangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/week3/CSSTriangle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/person/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/week4/person/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/person/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/week4/person/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/person/personProjector.js" beforeDir="false" afterPath="$PROJECT_DIR$/week4/person/personProjector.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,23 +19,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week3/CSSTriangle.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week4/person/personStarter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week4/person/personProjector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week3/todo/todoTest.js">
+        <entry file="file://$PROJECT_DIR$/week4/person/personTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#86#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="530">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week4/person/View.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -88,6 +71,10 @@
         <option value="$PROJECT_DIR$/week2/presentationModel/presentationModel.js" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/week3/CSSTriangle.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/week4/person/View.html" />
+        <option value="$PROJECT_DIR$/week4/person/person.js" />
+        <option value="$PROJECT_DIR$/week4/person/personProjector.js" />
       </list>
     </option>
   </component>
@@ -98,18 +85,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="851" />
+    <option name="x" value="244" />
     <option name="y" value="23" />
-    <option name="width" value="589" />
-    <option name="height" value="836" />
+    <option name="width" value="1196" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,12 +105,20 @@
             <path>
               <item name="webcl-hs20" type="b2602c69:ProjectViewProjectNode" />
               <item name="webcl-hs20" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
+              <item name="week4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webcl-hs20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webcl-hs20" type="462c0819:PsiDirectoryNode" />
+              <item name="week4" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,12 +222,13 @@
       <workItem from="1600955456287" duration="17000" />
       <workItem from="1601287587187" duration="2533000" />
       <workItem from="1601290296548" duration="2015000" />
-      <workItem from="1601892917648" duration="377000" />
+      <workItem from="1601892917648" duration="2688000" />
+      <workItem from="1602442352219" duration="1049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13489000" />
+    <option name="totallyTimeSpent" value="16849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,7 +243,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.2539342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.19384836" />
       <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.19709209" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +256,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2984218" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.17348203" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3044925" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -418,6 +412,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/person.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/person/person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/person/personStarter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/person/personTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/person/View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/person/personProjector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
         </state>
       </provider>
     </entry>
