@@ -11,10 +11,10 @@ const Person = () => {                               // facade
     const lastnameAttr  = Attribute("Mustermann");
     lastnameAttr.getObs(LABEL).setValue("Last Name");
 
-    //lastnameAttr.setConverter( input => input.toUpperCase() );
-    //lastnameAttr.setValidator( input => input.length >= 3   );
+    // lastnameAttr.setConverter( input => input.toUpperCase() );
+    // lastnameAttr.setValidator( input => input.length >= 3   );
 
-    return { // Was gibt Person zurück?
+    return {
         firstname:          firstnameAttr,
         lastname:           lastnameAttr,
     }
@@ -22,7 +22,6 @@ const Person = () => {                               // facade
 
 const MasterController = () => {
 
-    // Gibt eine Liste von Personen zurück mit Observable
     const personListModel = ObservableList([]); // observable array of Todos, this state is private
 
     return {
@@ -45,13 +44,12 @@ const MasterView = (masterController, selectionController, rootElement) => {
     masterController.onPersonAdd(render);
 };
 
-// Eine Lambda oder Function Expression
-const NoPerson = (() => { // one time creation, singleton, noch kein immutable --> noch Verbessern
+const NoPerson = (() => { // one time creation, singleton
     const johnDoe = Person();
     johnDoe.firstname.setConvertedValue("");
     johnDoe.lastname.setConvertedValue("");
     return johnDoe;
-})(); // IIFE --> Einen lokalen Scope haben, Produziert eine Person zuürck. Kann kein zweites noPerson geben
+})();
 
 const SelectionController = () => {
 
