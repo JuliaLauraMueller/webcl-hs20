@@ -8,7 +8,7 @@ const style = document.createElement("STYLE");
 style.innerHTML = pageCss;
 document.head.appendChild(style);
 
-const ALL_ATTRIBUTE_NAMES = ['firstname', 'lastname'];
+const ALL_ATTRIBUTE_NAMES = ['firstname', 'lastname', 'job'];
 
 const Person = () => {                               // facade
     const firstnameAttr = Attribute("Monika");
@@ -17,12 +17,16 @@ const Person = () => {                               // facade
     const lastnameAttr  = Attribute("Mustermann");
     lastnameAttr.getObs(LABEL).setValue("Last Name");
 
+    const jobAttr = Attribute("Engineer");
+    jobAttr.getObs(LABEL).setValue("Job")
+
     // lastnameAttr.setConverter( input => input.toUpperCase() );
     // lastnameAttr.setValidator( input => input.length >= 3   );
 
     return {
         firstname:          firstnameAttr,
         lastname:           lastnameAttr,
+        job:                jobAttr,
     }
 };
 
@@ -41,6 +45,7 @@ const NoPerson = (() => { // one time creation, singleton
     const johnDoe = Person();
     johnDoe.firstname.setConvertedValue("");
     johnDoe.lastname.setConvertedValue("");
+    johnDoe.job.setConvertedValue("");
     return johnDoe;
 })();
 
