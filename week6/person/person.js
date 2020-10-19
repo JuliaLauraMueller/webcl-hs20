@@ -17,9 +17,12 @@ const Person = () => {                               // facade
     const lastnameAttr  = Attribute("Mustermann");
     lastnameAttr.getObs(LABEL).setValue("Last Name");
 
+
     const jobAttr = Attribute("Engineer");
     jobAttr.getObs(LABEL).setValue("Job")
 
+    // 1) commented out since we do not use this at the moment
+    // 2) un-comment in case you need some converters or validators
     // lastnameAttr.setConverter( input => input.toUpperCase() );
     // lastnameAttr.setValidator( input => input.length >= 3   );
 

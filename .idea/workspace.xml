@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385ab9bc-5f01-4a19-9790-f542823bb9e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/week6/person/instantUpdateProjector.css" beforeDir="false" afterPath="$PROJECT_DIR$/week6/person/instantUpdateProjector.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/person/instantUpdateProjector.js" beforeDir="false" afterPath="$PROJECT_DIR$/week6/person/instantUpdateProjector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week6/person/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/week6/person/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/week6/todo.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +24,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week6/person/View.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="435">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week6/person/instantUpdateProjector.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week6/person/person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="439">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#109#0" expanded="true" />
               </folding>
@@ -126,8 +125,8 @@
         <option value="$PROJECT_DIR$/Examples/ExampleJS/ExampleWithSass.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/week6/person/instantUpdateProjector.js" />
-        <option value="$PROJECT_DIR$/week6/person/person.js" />
         <option value="$PROJECT_DIR$/week6/person/instantUpdateProjector.css" />
+        <option value="$PROJECT_DIR$/week6/person/person.js" />
       </list>
     </option>
   </component>
@@ -302,12 +301,12 @@
       <workItem from="1602515483501" duration="6494000" />
       <workItem from="1602531714602" duration="1720000" />
       <workItem from="1602614312397" duration="3535000" />
-      <workItem from="1603102155818" duration="2764000" />
+      <workItem from="1603102155818" duration="2885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33862000" />
+    <option name="totallyTimeSpent" value="33983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,27 +701,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week6/person/person.js">
+    <entry file="file://$PROJECT_DIR$/week6/person/instantUpdateProjector.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week6/person/View.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="435">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week6/person/instantUpdateProjector.css">
+    <entry file="file://$PROJECT_DIR$/week6/person/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="439">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
