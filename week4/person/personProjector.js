@@ -19,7 +19,7 @@ const bindTextInput = (textAttr, inputElement) => {
         : inputElement.setAttribute("readonly", true));
 
     // the label property should be shown as a pop-over on the text element.
-    textAttr.getObs(LABEL, '').onChange(label => inputElement.setAttribute("title", label));
+    textAttr.getObs(LABEL, '').onChange(label => inputElement.setAttribute("title", label)); // zuert leer dann auf Title
 };
 
 const personTextProjector = textAttr => {

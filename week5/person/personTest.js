@@ -32,7 +32,7 @@ personSuite.add("crud", assert => {
     assert.is(masterContainer.children.length, 2*elementsPerRow);
 
     const firstInput = masterContainer.querySelectorAll("input[type=text]")[0];
-    const firstDeleteButton = masterContainer.querySelectorAll("button")[0];
+    const firstDeleteButton = masterContainer.querySelectorAll("button_top")[0];
 
     firstDeleteButton.click();
 

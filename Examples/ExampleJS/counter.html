@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter with JS</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+
+<div>
+    <h3>Click Counter</h3>
+    <button id="clickIncrease">Click me: 0</button>
+    <button id="clickDecrease">Click me: 0</button>
+
+    <form>
+        <input type="button" value="Open image" onclick="openImg()" class="button_window">
+    </form>
+
+    <div>
+        <h5>"Test for counter " <span id="myNumber"></span></h5>
+    </div>
+
+    <form>
+        <input type="button" value="Click for +" onclick="plusNumber()">
+    </form>
+
+    <form>
+        <input type="button" value="Click for -" onclick="minusNumber()">
+    </form>
+
+    <form>
+        <input type="button" value="Reset" onclick="resetNumber()">
+    </form>
+</div>
+
+<button onclick="showImg()">Show images</button>
+<hr>
+<div id="test_img" class="image_button_show">
+    <img src="images/i_am_groot.jpg" alt="">
+    <img src="images/i_am_groot.jpg" alt="">
+</div>
+<hr>
+
+<script src="js_example.js"></script>
+<script>
+    let buttonPlus = document.getElementById("clickIncrease"),
+        countPlus = 0;
+    let buttonMinus = document.getElementById("clickDecrease"),
+        countMinus = 0;
+
+    buttonPlus.onclick = function() {
+        countPlus += 1;
+        buttonPlus.innerHTML = "Click: " + countPlus;
+    };
+
+    buttonMinus.onclick = function(){
+        if(countMinus > -10){
+            countMinus -= 1;
+        } else {
+            countMinus = 5;
+        }
+        buttonMinus.innerHTML = "Click " + countMinus
+    };
+
+    let button = document.getElementById("clickme"),
+        count = 0;
+    button.onclick = function() {
+        count += 1;
+        button.innerHTML = "Click me: " + count;
+    };
+
+    function showImg(){
+        document.getElementById('test_img').style.maxHeight = "300px";
+    }
+
+</script>
+
+</body>
+</html>

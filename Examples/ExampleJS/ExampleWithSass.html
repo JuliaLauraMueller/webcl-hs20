@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sass</title>
+    <link rel="stylesheet" href="style.sass">
+</head>
+<body>
+
+<div>
+    <H2> This is with Sass </H2>
+    <div class="col12">
+        <button id="button_top" value="This is the top button" class="button_div"> Click me! </button>
+    </div>
+
+    <div class="col12">
+        <button id="but_mid" value="This is the middle button"> Click me! </button>
+        <p id="but_midd"></p>
+    </div>
+
+    <button value="This is the middle button" onclick="openImg()"> Click me! </button>
+
+    <button id="button_img1" value="This is the middle button" > Click for img1 </button>
+    <button id="button_img2" value="This is the middle button" onclick="openImg()"> Click for img2 </button>
+
+</div>
+
+<script>
+    let fruits = ["apple", "lemon", "mango"];
+
+    let button_top = document.getElementById("button_top");
+    button_top.onclick = () =>{
+        document.getElementById("button_top").style.color = "red";
+    };
+
+    let button_middle = document.getElementById("but_mid")
+    document.getElementById("but_mid").innerText = fruits;
+    button_middle.onclick = function () {
+        fruits.push("Kiwi")
+        document.getElementById("but_mid").innerText = fruits;
+    };
+
+    function openImg(){
+        let img1 = "images/i_am_groot.jpg";
+        let img2 = "images/home_sweet_home.jpg";
+
+        let button_img1 = document.getElementById("button_img1");
+        let button_img2 = document.getElementById("button_img2");
+
+        if(button_img1){
+            window.open(img1);
+        }
+        else if(button_img2){
+            window.open(img2);
+        }
+        else
+            document.writeln("No images shown")
+
+    }
+</script>
+
+</body>
+</html>

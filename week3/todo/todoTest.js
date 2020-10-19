@@ -55,7 +55,7 @@ todoSuite.add("todo-crud", assert => {
 
     // delete a checked item
 
-    const firstDeleteBtn = todoContainer.querySelectorAll("button.delete")[0];
+    const firstDeleteBtn = todoContainer.querySelectorAll("button_top.delete")[0];
     firstDeleteBtn.click();
 
     assert.is(todoContainer.children.length, 1*elementsPerRow);
@@ -64,7 +64,7 @@ todoSuite.add("todo-crud", assert => {
 
     // delete an unchecked item
 
-    const secondDeleteBtn = todoContainer.querySelectorAll("button.delete")[0];
+    const secondDeleteBtn = todoContainer.querySelectorAll("button_top.delete")[0];
     secondDeleteBtn.click();
 
     assert.is(todoContainer.children.length, 0*elementsPerRow);
