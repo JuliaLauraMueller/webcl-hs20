@@ -2,30 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385ab9bc-5f01-4a19-9790-f542823bb9e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/Animal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/ExampleWithJS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/ExampleWithSass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/counter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/images/back_to_future_date.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/images/home_sweet_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/images/i_am_groot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/js_example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/saas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/ExampleJS/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/forked.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/exampleMVC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/mvc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/allTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/allTestsAsync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/allTestsSuite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/allTestsSuiteBundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/asyncStarter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/build-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/church/church.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/church/churchTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/church/rock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/church/rockTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/church/ski.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/dataflow/dataflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/dataflow/dataflowTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/observable/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/observable/observableTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/View.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/instantUpdateProjector.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/instantUpdateProjector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/personStarter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/person/personTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/presentationModel/presentationModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/presentationModel/presentationModelTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo/View.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo/fortuneService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo/todoProjector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo/todoStarter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/todo/todoTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/util/strings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/util/stringsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/util/times.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/util/timesTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/allTestsSuiteBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2/allTestsSuiteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/todo/todoTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2/todo/todoTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/allTestsSuiteBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/allTestsSuiteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/todo/todoTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/todo/todoTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/allTestsSuiteBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/week4/allTestsSuiteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/person/personProjector.js" beforeDir="false" afterPath="$PROJECT_DIR$/week4/person/personProjector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/person/personTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week4/person/personTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/todo/todoTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week4/todo/todoTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/allTestsSuiteBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/week5/allTestsSuiteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/person/personTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week5/person/personTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/todo/todoTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week5/todo/todoTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/counter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="645">
               <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="27" />
             </state>
           </provider>
@@ -56,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/style.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -73,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/ExampleWithJS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
+            <state relative-caret-position="75">
               <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,11 +104,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/ExampleWithSass.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -139,7 +167,6 @@
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/week3/CSSTriangle.html" />
         <option value="$PROJECT_DIR$/week4/person/View.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/week4/person/person.js" />
         <option value="$PROJECT_DIR$/week4/person/personProjector.js" />
         <option value="$PROJECT_DIR$/week5/ExampleWithPHP.html" />
@@ -157,6 +184,7 @@
         <option value="$PROJECT_DIR$/Examples/ExampleJS/saas.js" />
         <option value="$PROJECT_DIR$/Examples/ExampleJS/Animal.js" />
         <option value="$PROJECT_DIR$/Examples/ExampleJS/ExampleWithSass.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,7 +201,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -182,6 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,23 +219,10 @@
               <item name="webcl-hs20" type="b2602c69:ProjectViewProjectNode" />
               <item name="webcl-hs20" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webcl-hs20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webcl-hs20" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webcl-hs20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webcl-hs20" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,11 +346,12 @@
       <workItem from="1602515483501" duration="6494000" />
       <workItem from="1602531714602" duration="1720000" />
       <workItem from="1602614312397" duration="3535000" />
+      <workItem from="1603102155818" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31098000" />
+    <option name="totallyTimeSpent" value="31182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,8 +364,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.21816881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.22103004" />
       <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.19709209" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -568,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week5/util/strings.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -631,27 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/saas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/js.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week4/person/person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -664,21 +655,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/counter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="645">
           <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/Animal.js">
+    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/ExampleWithJS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
+        <state relative-caret-position="75">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -689,10 +687,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/Animal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/saas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/ExampleJS/ExampleWithSass.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
