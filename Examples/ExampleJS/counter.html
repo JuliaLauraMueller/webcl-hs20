@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <title>Counter with JS</title>
     <link rel="stylesheet" href="js.css">
+    <style>
+        .btn {
+            color: blue;
+            display: inline;
+            width: 120px;
+            height: 20px;
+        }
+
+        .btn--large{
+            height: 150px;
+            width: 150px;
+        }
+
+        .btn--green{
+            border-color: green;
+            color: green;
+        }
+
+        .btn__caption {
+             display: flex;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -12,8 +35,25 @@
     <button id="clickIncrease">Click me: 0</button>
     <button id="clickDecrease">Click me: 0</button>
 
+    <p>This is with BEM</p>
+    <button class="btn">BEM Button</button>
+    <button class="btn btn--large">BEM Button large</button>
+    <button class="btn btn__caption btn--green">BEM Button caption</button>
+
+    </br>
+    </br>
+
+    <button onclick="changeText()" >Example</button>
+    <p id="demo">change will applied here</p>
+
     <form>
         <input type="button" value="Open image" onclick="openImg()" class="button_window">
+    </form>
+
+    </br>
+
+    <form>
+        <input id="buttonChange" type="button" value="Change button" onclick="changeButton()">
     </form>
 
     <div>
@@ -33,7 +73,7 @@
     </form>
 </div>
 
-<button onclick="showImg()">Show images</button>
+<button onclick="showImage()">Show images</button>
 <hr>
 <div id="test_img" class="image_button_show">
     <img src="images/i_am_groot.jpg" alt="">
@@ -69,7 +109,20 @@
         button.innerHTML = "Click me: " + count;
     };
 
+    function changeButton(){
+        document.getElementById('buttonChange').style.color = "green";
+        document.getElementById('buttonChange').style.height = "50px";
+    }
+
+    function changeText(){
+        document.getElementById('demo').innerHTML = "Hello you?";
+    }
+
     function showImg(){
+        document.getElementById('test_img').style.maxHeight = "300px";
+    }
+
+    const showImage = function() {
         document.getElementById('test_img').style.maxHeight = "300px";
     }
 
