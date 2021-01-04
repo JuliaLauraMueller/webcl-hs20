@@ -4,6 +4,9 @@ import { start }       from "./pep.js";
 
 const appRootId = window.appRootId;
 
-pepServices().loadDevelopers( devs => start(appRootId, devs) );
+const service = pepServices();
 
-
+service.loadDevelopers( devs =>
+    service.loadProjects( projects =>
+      start(appRootId, devs, projects)
+));
